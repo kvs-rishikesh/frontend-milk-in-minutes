@@ -1,0 +1,54 @@
+<div>
+<div class="container">
+<div class="one">
+  <form (ngSubmit)="submitForm(signupForm)" #signupForm="ngForm">
+     <mat-form-field appearance="fill">
+       <mat-label>First Name</mat-label>
+       <input matInput name="firstName" [(ngModel)]="user.firstName" #firstName="ngModel" required pattern="[A-Z][a-zA-Z]*">
+       <mat-error *ngIf="firstName.invalid && (firstName.dirty || firstName.touched)">
+         First name must start with a capital letter.
+       </mat-error>
+     </mat-form-field><br>
+   
+     <mat-form-field appearance="fill">
+       <mat-label>Last Name</mat-label>
+       <input matInput name="lastName" [(ngModel)]="user.lastName" #lastName="ngModel" required minlength="3">
+       <mat-error *ngIf="lastName.invalid && (lastName.dirty || lastName.touched)">
+         Last name must be at least 3 characters long.
+       </mat-error>
+     </mat-form-field><br>
+   
+     <mat-form-field appearance="fill">
+       <mat-label>Email</mat-label>
+       <input matInput type="email" name="email" [(ngModel)]="user.email" #email="ngModel" required>
+       <mat-error *ngIf="email.invalid && (email.dirty || email.touched)">
+         Please enter a valid email address.
+       </mat-error>
+     </mat-form-field><br>
+   
+     <mat-form-field appearance="fill">
+       <mat-label>Password</mat-label>
+       <input matInput type="password" name="password" [(ngModel)]="user.password" #password="ngModel" required>
+     </mat-form-field><br>
+   
+     <mat-form-field appearance="fill">
+       <mat-label>Confirm Password</mat-label>
+       <input matInput type="password" name="confirmPassword" [(ngModel)]="confirmPassword" #confirmPasswordInput="ngModel" required>
+       <mat-error *ngIf="user.password !== confirmPassword && (confirmPasswordInput.dirty || confirmPasswordInput.touched)">
+         Passwords do not match.
+       </mat-error>
+     </mat-form-field><br>
+      <mat-form-field appearance="fill">
+       <mat-label>Address</mat-label>
+       <textarea matInput name="address" [(ngModel)]="user.address" #address="ngModel" required></textarea>
+       <mat-error *ngIf="address.invalid && (address.dirty || address.touched)">
+         Address is required.
+       </mat-error>
+     </mat-form-field><br>
+     <button mat-raised-button color="warn" type="button" (click)="resetForm(signupForm)">Reset</button> 
+     <button mat-raised-button color="primary" type="submit" [disabled]="signupForm.invalid">Sign Up</button>
+   </form>
+   <p>Already Have Account? <a routerLink="/sign-in">SignIn</a></p>
+     </div>
+   </div>
+ </div>

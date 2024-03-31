@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": "f4a0",
+      "firstName": "K",
+      "lastName": "Rishi",
+      "email": "rishikeshkonda@gmail.com",
+      "address": "Guntur,Andhra Pradesh",
+      "password": "12345678"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "orders": [
+    {
+      "id": "a25d",
+      "products": [
+        {
+          "name": "Butter Milk",
+          "quantity": 5,
+          "size": "200 ml",
+          "price": 10,
+          "totalAmount": 50
+        }
+      ],
+      "customerName": "Example User"
+    },
+    {
+      "id": "900c",
+      "products": [
+        {
+          "name": "Fresh Milk",
+          "quantity": 5,
+          "size": "250 ml",
+          "price": 30,
+          "totalAmount": 150
+        }
+      ],
+      "customerName": "undefined undefined"
+    },
+    {
+      "id": "5491",
+      "products": [
+        {
+          "name": "Whole Milk",
+          "quantity": 4,
+          "size": "1 liter",
+          "price": 90,
+          "totalAmount": 360
+        }
+      ],
+      "customerName": "Example User"
+    },
+    {
+      "id": "5f79",
+      "products": [
+        {
+          "name": "Whole Milk",
+          "quantity": 2,
+          "size": "1 liter",
+          "price": 90,
+          "totalAmount": 180
+        }
+      ],
+      "customerName": "Example User"
+    },
+    {
+      "id": "f728",
+      "products": [
+        {
+          "name": "Fresh Milk",
+          "quantity": 2,
+          "size": "1 liter",
+          "price": 80,
+          "totalAmount": 160
+        }
+      ],
+      "customerName": "K Rishi"
+    },
+    {
+      "id": "a055",
+      "products": [
+        {
+          "name": "Fresh Milk",
+          "quantity": 900,
+          "size": "1 liter",
+          "price": 80,
+          "totalAmount": 72000
+        },
+        {
+          "name": "Whole Milk",
+          "quantity": 800,
+          "size": "1 liter",
+          "price": 90,
+          "totalAmount": 72000
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": 900,
+          "size": "1 liter",
+          "price": 80,
+          "totalAmount": 72000
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": 900,
+          "size": "1 liter",
+          "price": 80,
+          "totalAmount": 72000
+        }
+      ],
+      "customerName": "Example User"
+    }
+  ]
+}

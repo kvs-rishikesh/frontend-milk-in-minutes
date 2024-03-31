@@ -1,0 +1,47 @@
+/* Style for the heading */
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+  }
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 234px;
+  }
+  
+  /* Style for table header */
+  thead {
+    background-color: transparent;
+  }
+  
+  /* Style for table header cells */
+  th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style for table body cells */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style for alternate rows */
+  tbody tr:nth-child(even) {
+    background-color: transparent;
+  }
+  
+  /* Style for hover effect */
+  tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Remove border-bottom for the last row */
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+  

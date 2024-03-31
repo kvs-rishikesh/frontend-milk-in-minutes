@@ -1,0 +1,119 @@
+.product-details {
+    display: flex;
+    gap: 20px;
+    background-color: #e7e393;
+  }
+  
+  .filters {
+    flex: 1;
+    background-color: #f4c95d;
+    padding: 20px;
+  }
+  
+  .filters h3 {
+    margin-top: 0;
+    color: #362417;
+  }
+  
+  .filters select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .filters input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .products {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 45px;
+    background-color: #e7e393;
+  }
+  
+  .product-card {
+    width: calc(50% - 20px);
+    background-color: #eeefeb;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .product-card img {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .product-card h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    color: #6c757d;
+  }
+  
+  .dropdown select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .add-to-cart {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Add space between size dropdown and button */
+    font-size: 16px; /* Increase font size */
+  }
+  
+  .add-to-cart:hover {
+    background-color: #0056b3;
+  }
+  
+  .space-between {
+    margin-top: 10px;
+  }
+  
+  /* Add this CSS to your styles.css or style.scss file */
+
+/* Updated button style */
+.custom-button {
+    display: inline-block;
+    padding: 8px 16px; /* Reduced padding */
+    font-size: 14px; /* Reduced font size */
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3;
+  }
+  

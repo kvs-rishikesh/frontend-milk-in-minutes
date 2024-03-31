@@ -1,0 +1,40 @@
+<div class="container">
+<h2>Orders From Users</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Product Name</th>
+      <th>Size</th>
+      <th>Quantity</th>
+      <th>Price</th>
+      <th>Total Price</th>
+      <th>Customer Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Iterate over each order -->
+    <tr *ngFor="let order of orders">
+      <!-- Check if the order contains a products array -->
+      <ng-container *ngIf="order.products">
+        <!-- Iterate over each product in the products array -->
+        <ng-container *ngFor="let product of order.products">
+          <td>{{ product.name }}</td>
+          <td>{{ product.size }}</td>
+          <td>{{ product.quantity }}</td>
+          <td>{{ product.price }}</td>
+          <td>{{ product.totalAmount }}</td>
+        </ng-container>
+      </ng-container>
+      <!-- If the order does not contain a products array, display individual fields -->
+      <ng-container *ngIf="!order.products">
+        <td>{{ order.productName }}</td>
+        <td>{{ order.size }}</td>
+        <td>{{ order.quantity }}</td>
+        <td>{{ order.price }}</td>
+        <td>{{ order.totalPrice }}</td>
+      </ng-container>
+      <td>{{ order.customerName }}</td>
+    </tr>
+  </tbody>
+</table>
+</div>

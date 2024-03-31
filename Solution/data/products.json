@@ -1,0 +1,189 @@
+{
+    "products": [
+      
+        {
+            "id": 1,
+          "name": "Fresh Milk",
+          "category": "Milk",
+          "sizes": ["1 liter", "500 ml", "250 ml"],
+          "prices": [80, 50, 30],
+          "description": "Locally sourced fresh milk",
+          "image": "assets/product-images/FreshMilk.jpg"
+        },
+        {
+            "id": 2,
+          "name": "Whole Milk",
+          "category": "Milk",
+          "sizes": ["1 liter", "2 liters"],
+          "prices": [90, 160],
+          "description": "Creamy whole milk for everyday use",
+          "image": "assets/product-images/WholeMilk.jpg"
+        },
+        {
+            "id": 3,
+          "name": "Butter Milk",
+          "category": "Milk",
+          "sizes": ["200 ml"],
+          "prices": [10],
+          "description": "Quality Butter Milk for everyday use",
+          "image": "assets/product-images/ButterMilk.png"
+        },
+      
+      
+        {
+            "id": 4,
+          "name": "Salted Butter",
+          "category": "Butter",
+          "sizes": ["250g", "500g"],
+          "prices": [50, 80],
+          "description": "Rich and creamy salted butter",
+          "image": "assets/product-images/SaltedButter.jpg"
+        },
+        {
+            "id": 5,
+          "name": "Unsalted Butter",
+          "category": "Butter",
+          "sizes": ["250g", "500g"],
+          "prices": [40, 60],
+          "description": "Smooth and creamy unsalted butter",
+          "image": "assets/product-images/UnSaltedButter.jpg"
+        },
+      
+        {
+            "id": 6,
+          "name": "Cheddar Cheese",
+          "category": "Cheese",
+          "sizes": ["200g", "500g", "1 kg"],
+          "prices": [80, 150, 220],
+          "description": "Sharp and flavorful cheddar cheese",
+          "image": "assets/product-images/CheddarCheese.jpg"
+        },
+        {
+            "id": 7,
+          "name": "Mozzarella Cheese",
+          "category": "Cheese",
+          "sizes": ["200g", "500g", "1 kg"],
+          "prices": [90, 160, 250],
+          "description": "Creamy and versatile mozzarella cheese",
+          "image": "assets/product-images/MozzarellaCheese.jpg"
+        },
+      
+        {
+            "id": 8,
+          "name": "Greek Yogurt",
+          "category": "Yogurt",
+          "sizes": ["500g", "1 kg"],
+          "prices": [50, 80],
+          "description": "Thick and creamy Greek yogurt",
+          "image": "assets/product-images/GreekYogurt.jpg"
+        },
+        {
+            "id": 9,
+          "name": "Flavored Yogurt",
+          "category": "Yogurt",
+          "sizes": ["500g", "1 kg"],
+          "prices": [60, 90],
+          "description": "Delicious flavored yogurt",
+          "image": "assets/product-images/FlavouredYogurt.jpg"
+        },
+      
+        {
+            "id": 10,
+          "name": "Vanilla Ice Cream",
+          "category": "Ice Cream",
+          "sizes": ["1 pint", "1 liter"],
+          "prices": [20, 80],
+          "description": "Classic creamy vanilla ice cream",
+          "image": "assets/product-images/VanillaIce.png"
+        },
+        {
+            "id": 11,
+          "name": "Chocolate Ice Cream",
+          "category": "Ice Cream",
+          "sizes": ["1 pint", "1 liter"],
+          "prices": [20, 90],
+          "description": "Rich and indulgent chocolate ice cream",
+          "image": "assets/product-images/ChocolateIce.jpg"
+        },
+      
+        {
+            "id": 12,
+          "name": "Milk Chocolate Bar",
+          "category": "Candy Bar",
+          "sizes": ["100g", "200g"],
+          "prices": [30, 50],
+          "description": "Smooth and creamy milk chocolate bar",
+          "image": "assets/product-images/MilkChocolate.webp"
+        },
+        {
+            "id": 13,
+          "name": "Dark Chocolate Bar",
+          "category": "Candy Bar",
+          "sizes": ["100g", "200g"],
+          "prices": [40, 80],
+          "description": "Intensely flavored dark chocolate bar",
+          "image": "assets/product-images/DarkChocolate.jpg"
+        },
+      
+        {
+            "id": 14,
+          "name": "Pure Ghee",
+          "category": "Ghee",
+          "sizes": ["500ml", "1 liter"],
+          "prices": [150, 250],
+          "description": "Aromatic and rich pure ghee",
+          "image": "assets/product-images/PureGhee.jpg"
+        },
+        {
+            "id": 15,
+          "name": "Clarified Butter",
+          "category": "Ghee",
+          "sizes": ["500ml", "1 liter"],
+          "prices": [180, 280],
+          "description": "High-quality clarified butter",
+          "image": "assets/product-images/ClarifiedButter.jpg"
+        },
+      
+        {
+            "id": 16,
+          "name": "Plain Curd",
+          "category": "Curd",
+          "sizes": ["500g", "1 kg"],
+          "prices": [60, 100],
+          "description": "Fresh and creamy plain curd",
+          "image": "assets/product-images/PlainCurd.jpg"
+        },
+        {
+            "id": 17,
+          "name": "Flavored Curd",
+          "category": "Curd",
+          "sizes": ["500g", "1 kg"],
+          "prices": [80, 150],
+          "description": "Delicious flavored curd",
+          "image": "assets/product-images/FlavouredCurd.jpg"
+        },
+      
+        {
+            "id": 18,
+          "name": "Vanilla Custard",
+          "category": "Custard",
+          "sizes": ["200g", "500g"],
+          "prices": [60, 100],
+          "description": "Smooth and creamy vanilla custard",
+          "image": "assets/product-images/VanillaCustard.webp"
+        },
+        {
+            "id": 19,
+          "name": "Chocolate Custard",
+          "category": "Custard",
+          "sizes": ["200g", "500g"],
+          "prices": [80, 150],
+          "description": "Rich and indulgent chocolate custard",
+          "image": "assets/product-images/ChocolateCustard.png"
+        }
+      
+    
+    ]
+}
+
+  

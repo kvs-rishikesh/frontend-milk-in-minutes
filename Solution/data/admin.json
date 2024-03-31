@@ -1,0 +1,11 @@
+{
+    "admin": [
+        {
+            "firstName": "Rishi",
+            "email": "admin@gmail.com",
+            "password": "9848",
+            "address": "Inner Ring Road",
+            "id": 1
+          }
+    ]
+}

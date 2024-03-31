@@ -1,0 +1,12 @@
+/* footer.component.css */
+
+.footer {
+    width: 100%;
+    background-color: #04030f;
+    color: #fff;
+    padding: 20px 0;
+    position: relative; /* Fixed position */
+    bottom: 0; /* Stick to the bottom */
+    left: 0;
+  }
+  

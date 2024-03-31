@@ -1,0 +1,37 @@
+<div class="product-details">
+    <div class="filters">
+      <!-- Category dropdown and search bar -->
+      <h3>Product Category</h3>
+      <select [(ngModel)]="selectedCategory" (change)="filterProducts()">
+        <option value="">All</option>
+        <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+      </select>
+      <h3>Search</h3>
+      <input type="text" placeholder="Search" [(ngModel)]="searchTerm" (input)="searchProducts()">
+    </div>
+    <div class="products">
+      <!-- Product cards -->
+      <div class="product-card" *ngFor="let product of filteredProducts">
+        <img [src]="product.image" [alt]="product.image" class="product-image">
+        <h4>{{ product.name }}</h4>
+        <p>{{ product.description }}</p>
+        <!-- Dropdown for selecting size -->
+        <div class="dropdown">
+          <select [(ngModel)]="product.selectedSize" (change)="updatePrice(product)">
+            <option value="" disabled [selected]="!product.selectedSize">Select Size</option>
+            <option *ngFor="let size of product.sizes" [value]="size" [disabled]="isSizeDisabled(product, size) && product.selectedSize !== size">{{ size }}</option>
+          </select>
+        </div>
+        <!-- Display price -->
+        <p class="price">{{ product.selectedSize ? 'Price: ' + product.selectedPrice : '' }}</p>
+        <!-- Quantity input -->
+        <div class="quantity-input">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" [(ngModel)]="product.quantity" min="1">
+        </div>
+        <!-- Add to cart button -->
+        <button mat-raised-button color="primary" class="custom-button" [disabled]="!product.selectedSize" (click)="addToCart(product)">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  

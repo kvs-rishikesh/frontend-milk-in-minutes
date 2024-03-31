@@ -1,0 +1,23 @@
+<header class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets\Logo\Logo.png" height="70" >
+        Milk In Minutes
+      </a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" routerLink="/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/products">Products</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/cart">Cart</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/admin">Admin</a></li>
+        <li class="nav-item">
+            <div class="nav-item" *ngIf="isLoggedIn(); else loginSection">
+              <a class="nav-link" (click)="logout()">Sign Out</a>
+            </div>
+            <ng-template #loginSection>
+              <a class="nav-link" routerLink="/sign-in">SignIn</a>
+            </ng-template>
+        </li>
+      </ul>
+    </div>
+  </header>
+  

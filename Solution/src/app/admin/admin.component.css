@@ -1,0 +1,58 @@
+/* Style for the admin login container */
+div {
+  background-color: #f4c95d;
+}
+.container {
+  background-color: #f4c95d;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.admin-login-container {
+  width: 320px; /* Set the width of the login container */
+  margin: 50px auto; /* Center the login container vertically and horizontally */
+  padding: 20px; /* Add padding to the login container */
+  background-color: #e7e393; /* Set background color for the login container */
+  border-radius: 10px; /* Add rounded corners to the login container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  margin-bottom: 127.5px;
+}
+
+/* Style for the heading */
+.admin-login-container h2 {
+  text-align: center; /* Center align the heading */
+  margin-bottom: 20px; /* Add space below the heading */
+}
+
+/* Style for the login form */
+form {
+  display: flex; /* Use flexbox layout for the form elements */
+  flex-direction: column; /* Arrange form elements vertically */
+}
+
+/* Style for form fields */
+mat-form-field {
+  margin-bottom: 15px; /* Add space between form fields */
+}
+
+/* Style for input fields */
+input {
+  padding: 10px; /* Add padding to input fields */
+  border: 1px solid #d8d174; /* Add border to input fields */
+  border-radius: 5px; /* Add rounded corners to input fields */
+  width: 100%; /* Set the width of input fields to 100% */
+}
+
+/* Style for the login button */
+button[type="submit"] {
+  padding: 10px 0; /* Add vertical padding to the login button */
+  border: none; /* Remove border from the login button */
+  border-radius: 5px; /* Add rounded corners to the login button */
+  width: 100%; /* Set the width of the login button to 100% */
+  background-color: #dd1c1a; /* Set background color for the login button */
+  color: #fff; /* Set text color for the login button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button[type="submit"]:hover {
+  background-color: #ff0022; /* Change background color of the login button on hover */
+}
